@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* links
+
+1https://blog.logrocket.com/using-react-usestate-object/  (useState with an object)
+2)https://react-hooks-cheatsheet.com/usestate  (useState)
+3)https://flaviocopes.com/react-usestate-object/
+4)https://www.tech-wiki.online/en/react-usestate-object.html
+5)https://www.coletiv.com/blog/dangers-of-using-objects-in-useState-and-useEffect-ReactJS-hooks/
+6)https://dev.to/joelynn/react-hooks-working-with-state-objects-46eb
+
+
+1)https://www.robinwieruch.de/react-pass-props-to-component/ (pass props)
+2)https://blog.logrocket.com/the-beginners-guide-to-mastering-react-props-3f6f01fd7099/
+3)https://ordinarycoders.com/blog/article/react-prop-drilling-passing-props
+
+
+
+1)https://codesandbox.io/s/react-router-example-pefjw?from-embed=&file=/src/App.js --router
+2)https://codesandbox.io/s/4q4p70k0r9?file=/src/components/redirect.js:164-194 --router
+3)https://reactrouter.com/docs/en/v6/getting-started/tutorial --router
+4)https://ui.dev/react-router-tutorial
+5)https://www.freecodecamp.org/news/how-to-use-react-router-version-6/
+6)https://www.freecodecamp.org/news/react-router-cheatsheet/
+
+
+1)https://codesandbox.io/s/shopping-cart-react-forked-chrml5?file=/src/index.js:2582-2586
+2)https://codesandbox.io/s/react-shopping-cart-usestate-fiz9i?file=/src/index.js:217-259 */
